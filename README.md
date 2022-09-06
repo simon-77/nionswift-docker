@@ -58,5 +58,13 @@ If desired, one could easily map the relevant configuration directories of Nion 
 ## New GUI element won't show up immediately
 The first interactive window after starting the container is titled "Choose Project". This window does not show up by its own.
 
-Workaround:
+*Workaround:*
 You have to switch to any other window temporarily for the new window to shows up on your host OS GUI.
+
+## libGL error
+When running the container I do get a few lines printing errors regarding *libGL*, *MESA-LOADER* and the *amdgpu* driver.
+The container keeps running and Nion Swift works flawlessly
+
+
+*Workaround:*
+Ignoring these errors
